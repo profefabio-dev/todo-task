@@ -151,6 +151,12 @@ Ejecutar *npm start* y validar que el mensaje "Se ha conectado con la base de da
 
 ### Parseando los mensajes con body-parser
 
+Necesitamos instalar *body-parser* con el siguiente comando:
+
+```sh
+npm install body-parser
+```
+
 En el archivo *server.js* necesitamos usar bodyParser para poder manipular los mensajes que lleguen en el body
 
 ```js
